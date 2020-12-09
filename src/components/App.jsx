@@ -1,17 +1,9 @@
-import React, { Component } from 'react';
-import '../css/App.css';
-// import components
+import React, { Component, useState } from "react";
+import "../css/App.css";
+import data from "../sample_data.json";
 
-class App extends Component {
-
-  render() {
-    return (
-      <div className="app">
-        Trivia!
-        
-      </div>
-    );
-  }
+function App() {
+  return <div className="app">Trivia!</div>;
 }
 
 export default App;
